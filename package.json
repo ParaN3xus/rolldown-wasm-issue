@@ -1,0 +1,19 @@
+{
+  "name": "rolldown-wasm-issue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "rolldown-wasm-issue-wasm": "link:./pkg",
+    "vite-plugin-wasm": "^3.5.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2",
+    "vite": "npm:rolldown-vite@latest"
+  }
+}
